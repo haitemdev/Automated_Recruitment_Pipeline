@@ -1,0 +1,11 @@
+# =============================================================================
+#  Automated Recruitment Pipeline — Python Dependencies
+# =============================================================================
+#  Install with:  pip install -r requirements.txt
+# =============================================================================
+
+# PDF text extraction (handles complex layouts, tables, multi-column)
+pdfplumber>=0.10.0
+
+# HTTP requests for webhook notifications (Discord / Slack)
+requests>=2.31.0
